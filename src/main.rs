@@ -42,6 +42,8 @@ fn main() {
     let mut engine = Engine { root, con, MAP_WIDTH, MAP_HEIGHT };
 
 
+
+    
     // // create object representing the player
     // let player = Object::new(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, '@', WHITE);
 
