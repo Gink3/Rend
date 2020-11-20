@@ -75,5 +75,8 @@ impl Engine {
         }
         false
     }
+    pub fn draw_player(&mut self) {
+        self.root.put_char(self.player.x, self.player.y, self.player.sym, BackgroundFlag::None);
+    }
 }
 

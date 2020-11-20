@@ -24,11 +24,11 @@ fn main() {
 
     while !engine.root.window_closed() {
         // clear the screen of the previous frame
-        engine.con.clear();
+        engine.root.clear();
 
         // render the screen
         //engine.render_all();
-
+        engine.draw_player();
         engine.root.flush();
         engine.root.wait_for_keypress(true);
         // handle keys and exit game if needed
